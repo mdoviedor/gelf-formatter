@@ -1,0 +1,24 @@
+{
+    "name": "merqueo/gelf-formatter",
+    "description": "Implementación formato gelf para logs",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marlon Oviedo",
+            "email": "moviedo@merqueo.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "psr/log": "^1.1",
+        "monolog/monolog": "^1.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "Merqueo\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
